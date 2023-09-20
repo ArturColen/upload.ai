@@ -17,7 +17,6 @@ export function PromptSelect(props: PromptSelectProps) {
 
     useEffect(() => {
         api.get('/prompts').then(response => {
-            console.log(response.data);
             setPrompts(response.data);
         });
     }, []);
