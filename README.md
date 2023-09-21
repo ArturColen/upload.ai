@@ -49,4 +49,6 @@ Before testing the project, you need to configure and run the server locally. To
 
 If you've followed all these steps and see the message `Server is running on port 3333` in the terminal, the API is already working correctly, just open the site hosted via [this link](https://upload-ai-arturbomtempo.vercel.app/) and test the program.
 
+#
+
 **Observation:** if you encounter an error while uploading the video, your API key may not be valid. Please verify that you have the correct access to the OpenAI API.
