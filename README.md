@@ -23,7 +23,7 @@ The program aims to generate titles and descriptions for videos that will be pub
 
 ## 📁 Access and execute project
 Before testing the project, you need to configure and run the server locally. To do this, follow the steps below:
-### 1. Install [Node.js](https://nodejs.org/en/download) on your machine
+### 1. Install [Node.js](https://nodejs.org/en/download) and [Git](https://git-scm.com/downloads) on your machine
 
 ### 2. Clone [this repository](https://github.com/ArturColen/upload.ai) on your machine
 * Create a folder on your computer for this program
@@ -31,14 +31,14 @@ Before testing the project, you need to configure and run the server locally. To
 * Copy the [URL](https://github.com/ArturColen/upload.ai.git) from the repository
 * Type `git clone <URL copied>` and press `enter`
 
-### 3. Still in the terminal, install the pnpm package manager: `npm install -g pnpm`
+### 3. Still in the terminal, enter the cloned project folder using the command `cd upload.ai` and install the pnpm package manager: `npm install -g pnpm`
 
 ### 4. Install the node_modules folder in the project
 * With the project open in the IDE, open the server folder using the command `cd server`
 * Now run `pnpm install` to install the folder
 
 ### 5. Use the OpenAI API key in the project
-* Change the name of the .env file, removing the .example at the end of it
+* Change the name of the `.env` file, removing the .example at the end of it
 * Log in to [OpenAI](https://openai.com/), generate a new API key and paste it between the brackets of the `OPENAI_KEY` field in the .env file (if you have any doubts about this process, watch [this](https://youtu.be/Zu2WGmfM0Gk?si=EaMB_wUl0_F--yuo) tutorial)
 
 ### 6. Inside the server folder, create a folder called `tmp` (and leave it empty), it will be responsible for saving the audios generated from the inserted videos
