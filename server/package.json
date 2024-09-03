@@ -13,20 +13,20 @@
     "seed": "tsx prisma/seed.ts"
   },
   "devDependencies": {
-    "@types/node": "^20.14.6",
+    "@types/node": "^20.16.3",
     "dotenv": "^16.4.5",
-    "prisma": "^5.15.1",
+    "prisma": "^5.19.1",
     "tsx": "^3.14.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@babel/traverse": "^7.24.7",
+    "@babel/traverse": "^7.25.6",
     "@fastify/cors": "^8.5.0",
     "@fastify/multipart": "^7.7.3",
     "@prisma/client": "5.3.1",
     "ai": "^2.2.37",
-    "fastify": "^4.28.0",
-    "openai": "^4.52.0",
+    "fastify": "^4.28.1",
+    "openai": "^4.57.0",
     "zod": "^3.23.8"
   }
 }
